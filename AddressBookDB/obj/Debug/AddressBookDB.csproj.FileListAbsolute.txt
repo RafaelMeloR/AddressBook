@@ -1,0 +1,10 @@
+C:\Users\Dell1\Documents\GitHub\Vanier\4th Semester\System-Development\Quiz2\AddressBook_quiz2\AddressBookDB\bin\Debug\AddressBookDB.dll.config
+C:\Users\Dell1\Documents\GitHub\Vanier\4th Semester\System-Development\Quiz2\AddressBook_quiz2\AddressBookDB\bin\Debug\AddressBookDB.dll
+C:\Users\Dell1\Documents\GitHub\Vanier\4th Semester\System-Development\Quiz2\AddressBook_quiz2\AddressBookDB\bin\Debug\AddressBookDB.pdb
+C:\Users\Dell1\Documents\GitHub\Vanier\4th Semester\System-Development\Quiz2\AddressBook_quiz2\AddressBookDB\bin\Debug\EntityFramework.dll
+C:\Users\Dell1\Documents\GitHub\Vanier\4th Semester\System-Development\Quiz2\AddressBook_quiz2\AddressBookDB\bin\Debug\EntityFramework.xml
+C:\Users\Dell1\Documents\GitHub\Vanier\4th Semester\System-Development\Quiz2\AddressBook_quiz2\AddressBookDB\obj\Debug\AddressBookDB.csproj.CoreCompileInputs.cache
+C:\Users\Dell1\Documents\GitHub\Vanier\4th Semester\System-Development\Quiz2\AddressBook_quiz2\AddressBookDB\obj\Debug\AddressBookDB.csproj.CopyComplete
+C:\Users\Dell1\Documents\GitHub\Vanier\4th Semester\System-Development\Quiz2\AddressBook_quiz2\AddressBookDB\obj\Debug\AddressBookDB.dll
+C:\Users\Dell1\Documents\GitHub\Vanier\4th Semester\System-Development\Quiz2\AddressBook_quiz2\AddressBookDB\obj\Debug\AddressBookDB.pdb
+C:\Users\Dell1\Documents\GitHub\Vanier\4th Semester\System-Development\Quiz2\AddressBook_quiz2\AddressBookDB\obj\Debug\AddressBookDB.csprojAssemblyReference.cache
