@@ -47,8 +47,8 @@
                 <label for="inputAddress">Address</label>
                 <input type="text" name="Address" class="form-control" id="Address" placeholder="1234 Main St">
                 <label for="inputState">State</label>
-                <select name="TypeUser" id="inputState" class="form-control">
-                    <option selected value="Student">Student</option>
+                <select name="TypeUser" id="TypeUser" class="form-control">
+                    <option value="Student">Student</option>
                     <option value="Teacher">Teacher</option>
                 </select>
                 <br />
@@ -69,12 +69,28 @@
 {
 
     <script type="text/javascript">
-    function SubmitForm() {
+        function SubmitForm() {
+             
+            var Name = $("#name").val();
+            var LastName = $("#lastName").val();
+            var FullName = Name + " " + LastName;
+            var Address = $("#Address").val();
+            var Type = $("#TypeUser").val();
+            var obj = { 
+                "Name": Name,
+                "LastName": LastName,
+                "FullName": FullName,
+                "TypeUser": Type,
+                "Address": Address
+               
+            };
+
+            console.log(obj);
         var formData = $("#addForm").serialize();
         $.ajax({
     url: '@Url.Action("AddAddressBook","Home")',
     type: "POST",
-    data: formData,
+    data: obj,
     success: function (result) {
         console.log(result);
     },
@@ -86,8 +102,7 @@
     }
     </script>
     <script type="text/javascript">
-        function ShowAdd() {
-            alert();
+        function ShowAdd() { 
             var modal = document.getElementById("add");
             modal.style.display = "block";
         }

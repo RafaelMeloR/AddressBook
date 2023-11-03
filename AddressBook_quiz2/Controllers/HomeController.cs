@@ -265,6 +265,7 @@ namespace AddressBook_quiz2.Controllers
                 return Json(new { message = "ERROR" });
             }
 
+            Response.Redirect(Request.Url.ToString());
             return Json(new { message = "Form submitted successfully" });
         }
     }
